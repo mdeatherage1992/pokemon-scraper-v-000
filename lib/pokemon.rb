@@ -11,9 +11,5 @@ end
 
 
 
-def self.save(id, name, type, db)
-  database_connection.execute("INSERT INTO  (name, breed, age) VALUES (?, ?, ?)",name, breed, age)
-end
-
 
 end
